@@ -1,5 +1,3 @@
-# InfoCon
-
 ## Introduction
 
 ### Discovery of Goals as Manipulation Concepts
