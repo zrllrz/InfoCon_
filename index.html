@@ -269,16 +269,20 @@
             and discriminative goals and derive metrics that can autonomously link them to
             meaningful sub-trajectories from noisy, unlabeled demonstrations.
             Specifically, we employ a trainable codebook containing encodings (concepts) capable of
-            synthesizing the end-state of a sub-trajectory given the current state – <span class="dnerf">generative informativeness</span>.
+            synthesizing the end-state of a sub-trajectory given the current state – <b>generative informativeness</b>.
             Moreover, the encoding corresponding to a particular sub-trajectory should
             differentiate the state within and outside it and confidently predict the subsequent action based on the gradient of its 
-            discriminative score <span class="dnerf">discriminative informativeness</span>.
+            discriminative score <b>discriminative informativeness</b>.
+          </p>
+          <p>
             These metrics, which do not rely on human annotation,
             can be seamlessly integrated into a VQ-VAE framework, enabling the partitioning of demonstrations into semantically consistent sub-trajectories,
             fulfilling the purpose of dis- covering manipulation concepts and the corresponding sub-goal (key) states.
+          </p>
+          <p>
             We evaluate the effectiveness of the learned concepts by training policies that utilize them as guidance,
             demonstrating superior performance compared to other baselines. Additionally,
-            our discovered manipulation concepts compare favorably to human-annotated ones while saving much manual effort.</p>
+            our discovered manipulation concepts compare favorably to human-annotated ones while saving much manual effort.
           </p>
         </div>
       </div>
